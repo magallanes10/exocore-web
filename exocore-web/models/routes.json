@@ -1,0 +1,41 @@
+{
+  "port": 7860,
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/"
+    },
+    {
+      "method": "GET",
+      "path": "/docs"
+    },
+    {
+      "method": "GET",
+      "path": "/docs/oauth2-redirect"
+    },
+    {
+      "method": "DELETE",
+      "path": "/logout"
+    },
+    {
+      "method": "GET",
+      "path": "/openapi.json"
+    },
+    {
+      "method": "GET",
+      "path": "/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/redoc"
+    },
+    {
+      "method": "POST",
+      "path": "/signin"
+    },
+    {
+      "method": "POST",
+      "path": "/signup"
+    }
+  ]
+}
